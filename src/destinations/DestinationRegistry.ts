@@ -126,6 +126,20 @@ export class DestinationRegistry {
   }
 
   /**
+   * Returns all sub-destinations (moons, orbital regions) belonging to a parent celestial body.
+   */
+  public getSubDestinations(parentId: string): DestinationRecord[] {
+    return Array.from(this.destinations.values()).filter((d) => d.parentId === parentId);
+  }
+
+  /**
+   * Returns all destinations that are currently unlocked and accessible.
+   */
+  public getUnlockedDestinations(): DestinationRecord[] {
+    return Array.from(this.destinations.values()).filter((d) => this.isUnlocked(d.id));
+  }
+
+  /**
    * Returns the 4 Earth orbital regions (LEO, MEO, GEO, HEO).
    */
   public getEarthOrbitalRegions(): DestinationRecord[] {

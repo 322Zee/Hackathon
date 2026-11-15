@@ -62,6 +62,9 @@ export enum DestinationCategory {
   DWARF_PLANET = 'DWARF_PLANET',
   ORBITAL_REGION = 'ORBITAL_REGION',
   COMET = 'COMET',
+  // High-level grouping aliases
+  PLANET = 'PLANET',
+  ASTEROID = 'ASTEROID',
 }
 
 /**
