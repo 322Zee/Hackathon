@@ -186,3 +186,4 @@ describe('SolarSystemNavigationManager', () => {
     expect(navManager.getInspectedSystemId()).toBeNull();
   });
 });
+

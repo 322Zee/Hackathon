@@ -109,3 +109,4 @@ describe('Navigation Subsystem Adapters', () => {
     expect(typeof isConnected).toBe('boolean');
   });
 });
+

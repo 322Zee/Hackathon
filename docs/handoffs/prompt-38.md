@@ -103,3 +103,4 @@ All tests in `tests/destinations/` and `tests/environment/` were run and passed 
 - Re-exported new navigation engines and adapters.
 - Maintained exact callback signatures (`onSelectDestination`, `setSelectedDestination`, `adjustZoom`, `resetView`, `focusPlanet`, `onBrowseMissions`, `onViewSubDestinations`, `onClose`).
 - Strict 2D/2.5D constraint honored without introducing full 3D models or shaders outside the Pixi.js pipeline.
+

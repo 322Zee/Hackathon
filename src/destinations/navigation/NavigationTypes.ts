@@ -167,3 +167,4 @@ export interface NavigationActionRequest {
   readonly destinationId: string;
   readonly metadata?: Record<string, any>;
 }
+

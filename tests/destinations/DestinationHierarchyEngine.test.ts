@@ -86,3 +86,4 @@ describe('DestinationHierarchyEngine', () => {
     expect(saturnStatus).toBe(ExplorationStatusBadge.LOCKED);
   });
 });
+

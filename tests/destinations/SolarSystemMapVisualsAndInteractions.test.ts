@@ -123,3 +123,4 @@ describe('Solar System Map Visuals and Navigation UI Interactions', () => {
     });
   });
 });
+

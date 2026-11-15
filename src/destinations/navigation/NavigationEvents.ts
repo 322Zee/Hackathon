@@ -63,3 +63,4 @@ export interface NavigationEventMap {
   [NAVIGATION_EVENTS.FILTER_CHANGED]: FilterChangedPayload;
   [NAVIGATION_EVENTS.ACTION_TRIGGERED]: NavigationActionTriggeredPayload;
 }
+
