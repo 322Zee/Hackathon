@@ -176,3 +176,4 @@ export class TerrainFeatureGenerator {
     return features;
   }
 }
+

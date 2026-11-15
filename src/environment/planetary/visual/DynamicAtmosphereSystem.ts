@@ -115,3 +115,4 @@ export class DynamicAtmosphereSystem {
     this.animTimer = 0;
   }
 }
+

@@ -228,3 +228,4 @@ All 5 newly created test suites along with existing tests pass with 100% success
 | `PlanetaryRenderingAndPerformance.test.ts` | 5 / 5 | Particle pooling scaling across quality levels, parallax layer pruning, zero per-frame allocations, boundary clamping, memory cleanup |
 | `HeadquartersCampus.test.ts` | 8 / 8 | Existing campus environment tests (retained and fully passing) |
 | **Total Environment Tests** | **39 / 39** | **All Passing** |
+
