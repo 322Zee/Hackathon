@@ -493,3 +493,4 @@ export interface EnvironmentLoadOptions {
   /** Whether to bypass camera intro transition */
   readonly skipTransition?: boolean;
 }
+

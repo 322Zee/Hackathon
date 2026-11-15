@@ -252,3 +252,4 @@ export class ParallaxBackgroundSystem {
     this.container.removeChildren();
   }
 }
+

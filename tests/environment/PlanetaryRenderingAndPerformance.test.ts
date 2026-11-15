@@ -106,3 +106,4 @@ describe('Planetary Rendering & Performance Optimizations', () => {
     expect(manager.getActiveInstance()).toBeUndefined();
   });
 });
+

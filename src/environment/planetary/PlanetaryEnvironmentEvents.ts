@@ -77,3 +77,4 @@ export type PlanetaryEnvironmentEventMap = {
   [PLANETARY_ENVIRONMENT_EVENTS.QUALITY_CHANGED]: EnvironmentQualityChangedPayload;
   [PLANETARY_ENVIRONMENT_EVENTS.WEATHER_CHANGED]: WeatherConditionChangedPayload;
 };
+

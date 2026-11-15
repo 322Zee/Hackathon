@@ -2122,3 +2122,4 @@ export const PLANETARY_ENVIRONMENT_PROFILES: Record<string, PlanetaryEnvironment
     },
   },
 };
+

@@ -221,3 +221,4 @@ describe('PlanetaryEnvironmentManager', () => {
     expect(coreSpy).toHaveBeenCalledTimes(1);
   });
 });
+

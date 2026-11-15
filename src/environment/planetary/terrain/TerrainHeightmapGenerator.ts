@@ -64,3 +64,4 @@ export class TerrainHeightmapGenerator {
     return this.config.baseElevation - displacement;
   }
 }
+

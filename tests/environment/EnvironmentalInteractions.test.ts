@@ -144,3 +144,4 @@ describe('Environmental Interactions & Difficulty Restrictions', () => {
     expect(defaultSpawn?.y).toBeGreaterThan(0);
   });
 });
+
